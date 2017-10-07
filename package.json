@@ -18,13 +18,17 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.3.0",
-    "imgix-core-js": "^1.1.0",
-    "urijs": "^1.19.0",
     "broccoli-funnel": "^1.2.0",
     "broccoli-merge-trees": "^2.0.0",
     "broccoli-stew": "^1.5.0",
-    "ember-cli-htmlbars": "^2.0.1"   
+    "broccoli-webpack": "^1.0.0",
+    "charenc": "^0.0.2",
+    "ember-cli-babel": "^6.3.0",
+    "ember-cli-htmlbars": "^2.0.1",
+    "imgix-core-js": "^1.1.0",
+    "is-buffer": "^1.1.5",
+    "js-base64": "^2.3.2",
+    "urijs": "^1.19.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",

@@ -1,5 +1,4 @@
 import Ember from 'ember';
-import getOwner from 'ember-getowner-polyfill';
 
 const {
   computed,
@@ -220,6 +219,6 @@ export default Ember.Mixin.create({
    * @private
    */
   _config: computed(function () {
-    return getOwner(this).resolveRegistration('config:environment');
+    return Ember.getOwner(this).resolveRegistration('config:environment');
   })
 });
